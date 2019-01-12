@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>John</title>
+    <link rel="icon" href="./imgs/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="estilo.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar">
+       <img src="./imgs/avatar.jpg" alt="john">
+
+       <a href="#home" class="icons back">
+        <i class="fa fa-home icon-item"></i>
+        <p>HOME</p> 
+       </a>
+       <a href="#about" class="icons">
+        <i class="fa fa-user icon-item"></i>
+        <p>ABOUT</p> 
+       </a>
+       <a href="#photos" class="icons">
+        <i class="fa fa-eye icon-item"></i>
+        <p>PHOTOS</p> 
+       </a>
+       <a href="#contact" class="icons">
+        <i class="fa fa-envelope icon-item"></i>
+        <p>CONTACT</p> 
+       </a>
+    </nav>
+
+    <!--Menu para telas pequenas-->
+    <div class="navbar-mobile" id="mynavbar">
+      <div class="menu-container">
+         <a href="#home" class="nav-itens">HOME</a>
+         <a href="#home" class="nav-itens">ABOUT</a>
+         <a href="#home" class="nav-itens">PHOTOS</a>
+         <a href="#home" class="nav-itens">CONTACT</a>
+      </div>
+    </div>
+
+    <div class="conteudo">
+
+       <header class="cabecalho" id="home">
+
+           <h1 class="titulo"><span>I'm</span> John Doe.</h1>
+           <p>Photographer and Web Designer.</p>
+           <img class="img-cabecalho" src="./imgs/man.jpg" alt="man john">
+
+       </header>
+       
+       <section class="habilidades" id="about">
+
+          <h2 class="subtitulo">My Name</h2>
+          <hr class="sep">
+          <p class="text-1">Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          
+          <h3 class="subtitulo-2">My Skills</h3>
+
+          <p class="skills">Photography</p>
+          <div class="progresso">
+            <div class="progresso-item" style="height: 28px;
+            width: 95%;">
+            </div>
+          </div>
+             
+          <p class="skills">Web Design</p>
+          <div class="progresso">
+            <div class="progresso-item" style="height: 28px;
+            width: 85%;">
+            </div>
+          </div>
+
+          <p class="skills">Photoshop</p>
+          <div class="progresso">
+            <div class="progresso-item" style="height: 28px;
+            width: 80%;">
+            </div>
+          </div>
+
+          <br>
+
+          <div class="numeros">
+
+            <div class="numeros-item">
+              <span>11+</span>
+              <br>
+              <p>Partners</p>
+            </div>
+
+            <div class="numeros-item">
+                <span>55+</span>
+                <br>
+                <p>Projects Done</p>
+            </div>
+
+            <div class="numeros-item">
+                <span>89+</span>
+                <br>
+                <p>Happy Clients</p>
+            </div>
+
+            <div class="numeros-item">
+                <span>150+</span>
+                <br>
+                <p>Meetings</p>
+            </div>
+
+          </div>
+
+          <button class="btn">
+            <i class="fa fa-download"></i>
+            Download Resume
+          </button>
+
+          <!--preços-->
+          <h3 class="subtitulo-2 preco">My Price</h3>
+          <section class="tabela">
+            <div class="tabela-item"> 
+               <ul>
+                 <li class="titulo-tabela">Basic</li>
+                 <li>Web Design</li>
+                 <li>Photography</li>
+                 <li>5GB Storage</li>
+                 <li>Mail Support</li>
+                 <li class="tabela-preco">
+                    <h2>$ 10</h2>
+                    <span>per month</span>
+                 </li>
+                 <li class="tabela-botao">
+                    <button>Sign Up</button>
+                 </li>
+               </ul>
+            </div>
+
+            <div class="tabela-item"> 
+              <ul>
+                <li class="titulo-tabela">Pro</li>
+                <li>Web Design</li>
+                <li>Photography</li>
+                <li>5GB Storage</li>
+                <li>Endless Support</li>
+                <li class="tabela-preco">
+                   <h2>$ 25</h2>
+                   <span>per month</span>
+                </li>
+                <li class="tabela-botao">
+                   <button>Sign Up</button>
+                </li>
+              </ul>
+           </div>
+          </section>
+
+          <h3 class="subtitulo-2 reputacao">My Reputation</h3>
+          <img class="img-comentario" src="./imgs/bandmember.jpg" alt="homem comentário">
+          <p class="floats"><span class="names">Chris Fox.</span>CEO at Mighty Schools.</p>
+          <p class="floats-clear">Jane Doe saved us from a web disaster.</p>
+          <br>
+          <img class="img-2" src="./imgs/avatar-2.jpg" alt="homem comentário">
+          <p class="floats-2"><span class="names">Rebecca Flex.</span> CEO at Company.</p>
+          <p class="floats">No one is better than Jane Doe.</p>
+       </section>
+
+       <section class="fotos-section" id="photos">
+          <h2 class="titulo-fotos">My Photos</h2>
+          <hr class="sep" style="height:0;">
+          <div class="grid-fotos">
+            <div class="col">
+               <img src="./imgs/wedding - 2.jpg" alt="fotos">
+               <img src="./imgs/rocks.jpg" alt="fotos">
+               <img src="./imgs/sailboat.jpg" alt="fotos">
+            </div>
+
+            <div class="col">
+              <img src="./imgs/underwater.jpg" alt="fotos">
+              <img src="./imgs/chef.jpg" alt="fotos">
+              <img src="./imgs/wedding - 2.jpg" alt="fotos">
+              <img src="./imgs/p6.jpg" alt="fotos">
+           </div>
+          </div>
+       </section>
+
+       <section class="contato" id="contact">
+         <h2 class="titulo-fotos">Contact Me</h2>
+         <hr class="sep">
+
+         <div class="adress">
+           <p>
+              <i class="fa fa-map-marker"></i>
+              Chicago, US
+           </p>
+           <p>
+            <i class="fa fa-phone"></i>
+            Phone: +00 151515
+           </p>
+           <p>
+            <i class="fa fa-envelope"></i>
+            Email: mail@mail.com
+           </p>
+         </div>
+         <br>
+         <p>Lets get in touch. Send me a message:</p>
+
+         <form class="formulario">
+            <p>
+               <input class="inputs-item" type="text" name="name" placeholder="Name" required>
+            </p>
+            <p>
+               <input class="inputs-item" type="email" name="email" placeholder="Email" required>
+            </p>
+            <p>
+               <input class="inputs-item" type="text" name="subject" placeholder="Subject" required>
+            </p>
+            <p>
+               <input class="inputs-item" type="text" name="message" placeholder="Message" required>
+            </p>
+            <p>
+               <button type="submit" class="btn-2">
+                  <i class="fa fa-paper-plane"></i>
+                  SEND MESSAGE
+               </button>
+            </p>
+         </form>
+       </section>
+
+       <footer>
+          <i class="fa fa-facebook-official hover"></i>
+          <i class="fa fa-instagram hover"></i>
+          <i class="fa fa-snapchat hover"></i>
+          <i class="fa fa-pinterest-p hover"></i>
+          <i class="fa fa-twitter hover"></i>
+          <i class="fa fa-linkedin hover"></i>
+
+          <p class="final">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="hover-verde">w3c.css</a></p>
+       </footer>
+    </div>
+</body>
+</html>
